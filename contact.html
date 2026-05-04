@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact — Sydney Murphy</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav>
+    <a href="index.html" class="nav-logo">Sydney Murphy</a>
+    <div class="nav-right">
+      <ul class="nav-links">
+        <li><a href="business-analytics.html">Business Analytics</a></li>
+        <li><a href="investing-update.html">Investing Update</a></li>
+        <li><a href="united-nations.html">United Nations</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+      </ul>
+      <div class="nav-social">
+        <a href="https://www.instagram.com/sydneybb3/" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+        <a href="https://twitter.com/SydneyLiz_Murph" target="_blank" aria-label="Twitter"><i class="fab fa-x-twitter"></i></a>
+        <a href="http://www.linkedin.com/in/sydney-murphy-756473166" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+        <a href="https://www.youtube.com/channel/UCWZ1WHXIOuJXraY4niquO6A" target="_blank" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+        <a href="https://www.facebook.com/sydney.murphy.75" target="_blank" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+      </div>
+    </div>
+    <button class="hamburger" onclick="toggleMenu()" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="business-analytics.html">Business Analytics</a>
+    <a href="investing-update.html">Investing Update</a>
+    <a href="united-nations.html">United Nations</a>
+    <a href="contact.html">Contact</a>
+    <div class="mobile-social">
+      <a href="https://www.instagram.com/sydneybb3/" target="_blank"><i class="fab fa-instagram"></i></a>
+      <a href="https://twitter.com/SydneyLiz_Murph" target="_blank"><i class="fab fa-x-twitter"></i></a>
+      <a href="http://www.linkedin.com/in/sydney-murphy-756473166" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+      <a href="https://www.youtube.com/channel/UCWZ1WHXIOuJXraY4niquO6A" target="_blank"><i class="fab fa-youtube"></i></a>
+      <a href="https://www.facebook.com/sydney.murphy.75" target="_blank"><i class="fab fa-facebook-f"></i></a>
+    </div>
+  </div>
+
+  <!-- PAGE HERO -->
+  <div class="page-hero">
+    <div class="page-hero-overlay" style="background: linear-gradient(to bottom, rgba(13,13,13,0.5), rgba(13,13,13,0.9));"></div>
+    <div class="page-hero-content">
+      <h1>Contact</h1>
+    </div>
+  </div>
+
+  <!-- CONTACT -->
+  <section>
+    <div class="container">
+      <h2 class="section-title">Get in Touch</h2>
+      <div class="section-divider"></div>
+      <p style="color: var(--text-muted); font-size: 0.925rem; line-height: 1.75; max-width: 560px; margin-bottom: 2rem;">
+        Whether you have a story pitch, collaboration idea, analytics question,
+        or just want to connect — I'd love to hear from you.
+      </p>
+      <div class="contact-social">
+        <a href="https://www.instagram.com/sydneybb3/" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+        <a href="https://twitter.com/SydneyLiz_Murph" target="_blank" aria-label="Twitter"><i class="fab fa-x-twitter"></i></a>
+        <a href="http://www.linkedin.com/in/sydney-murphy-756473166" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+        <a href="https://www.youtube.com/channel/UCWZ1WHXIOuJXraY4niquO6A" target="_blank" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+        <a href="https://www.facebook.com/sydney.murphy.75" target="_blank" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="container">
+      <p class="footer-quote">"It is those who are of the most potential who struggle to live up to their own ideals and perfection."</p>
+      <div class="footer-cta">
+        <p>More published work</p>
+        <a href="https://muckrack.com/sydney-murphy" target="_blank">MuckRack Profile</a>
+      </div>
+      <div class="footer-social">
+        <a href="https://www.instagram.com/sydneybb3/" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+        <a href="https://twitter.com/SydneyLiz_Murph" target="_blank" aria-label="Twitter"><i class="fab fa-x-twitter"></i></a>
+        <a href="http://www.linkedin.com/in/sydney-murphy-756473166" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+        <a href="https://www.youtube.com/channel/UCWZ1WHXIOuJXraY4niquO6A" target="_blank" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+        <a href="https://www.facebook.com/sydney.murphy.75" target="_blank" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+      </div>
+      <p class="footer-bottom">&copy; 2026 Sydney Murphy. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script>
+    function toggleMenu() {
+      document.getElementById('mobileMenu').classList.toggle('open');
+    }
+  </script>
+
+</body>
+</html>

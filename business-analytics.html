@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Business Analytics — Sydney Murphy</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav>
+    <a href="index.html" class="nav-logo">Sydney Murphy</a>
+    <div class="nav-right">
+      <ul class="nav-links">
+        <li><a href="business-analytics.html" class="active">Business Analytics</a></li>
+        <li><a href="investing-update.html">Investing Update</a></li>
+        <li><a href="united-nations.html">United Nations</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <div class="nav-social">
+        <a href="https://www.instagram.com/sydneybb3/" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+        <a href="https://twitter.com/SydneyLiz_Murph" target="_blank" aria-label="Twitter"><i class="fab fa-x-twitter"></i></a>
+        <a href="http://www.linkedin.com/in/sydney-murphy-756473166" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+        <a href="https://www.youtube.com/channel/UCWZ1WHXIOuJXraY4niquO6A" target="_blank" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+        <a href="https://www.facebook.com/sydney.murphy.75" target="_blank" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+      </div>
+    </div>
+    <button class="hamburger" onclick="toggleMenu()" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="business-analytics.html">Business Analytics</a>
+    <a href="investing-update.html">Investing Update</a>
+    <a href="united-nations.html">United Nations</a>
+    <a href="contact.html">Contact</a>
+    <div class="mobile-social">
+      <a href="https://www.instagram.com/sydneybb3/" target="_blank"><i class="fab fa-instagram"></i></a>
+      <a href="https://twitter.com/SydneyLiz_Murph" target="_blank"><i class="fab fa-x-twitter"></i></a>
+      <a href="http://www.linkedin.com/in/sydney-murphy-756473166" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+      <a href="https://www.youtube.com/channel/UCWZ1WHXIOuJXraY4niquO6A" target="_blank"><i class="fab fa-youtube"></i></a>
+      <a href="https://www.facebook.com/sydney.murphy.75" target="_blank"><i class="fab fa-facebook-f"></i></a>
+    </div>
+  </div>
+
+  <!-- PAGE HERO -->
+  <!-- Replace images/business-analytics-hero.jpg with your own photo -->
+  <div class="page-hero">
+    <div class="page-hero-bg" style="background-image: url('images/business-analytics-hero.jpg');"></div>
+    <div class="page-hero-overlay"></div>
+    <div class="page-hero-content">
+      <h1>Business Analysis &amp; Data Strategy</h1>
+    </div>
+  </div>
+
+  <!-- ABOUT -->
+  <section class="about-section">
+    <div class="container">
+      <h2 class="section-title">My Unique Perspective to Analytics</h2>
+      <div class="section-divider"></div>
+      <div class="about-grid">
+        <div class="about-text">
+          <p>I bridge the gap between data and narrative — combining rigorous analytical training with a journalist's instinct for the story behind the numbers. My background spans data modeling, machine learning, and statistical inference, with a deep commitment to extracting clear, actionable insights from complex datasets.</p>
+          <p>Whether I'm building predictive models, designing data pipelines, or communicating findings to non-technical stakeholders, I bring both technical precision and clear communication to every project.</p>
+        </div>
+        <ul class="credentials">
+          <li>
+            <strong>Graduate Degree</strong>
+            M.S. Business Analytics — Carnegie Mellon University, Tepper School of Business
+          </li>
+          <li>
+            <strong>Graduate Degree</strong>
+            M.S. Journalism (Data Specialty) — Columbia University
+          </li>
+          <li>
+            <strong>Undergraduate Degree</strong>
+            B.A. Neuroscience — Wheaton College (Massachusetts)
+          </li>
+          <li>
+            <strong>Certificate (In Progress)</strong>
+            Executive Certificate in AI — Columbia Engineering
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section>
+    <div class="container">
+      <h2 class="section-title">Featured Projects</h2>
+      <div class="section-divider"></div>
+      <div class="projects-grid">
+
+        <div class="project-card">
+          <h3>CMU Capstone 2025: Integrated Analytics Project</h3>
+          <p>Semester-long project combining data engineering, predictive modeling, and business strategy — including dashboards and rigorous statistical and ML analyses.</p>
+          <a class="project-link" href="https://github.com/sydneymcolumbia/CMU-Capstone-2025" target="_blank">
+            <i class="fab fa-github"></i> View on GitHub
+          </a>
+        </div>
+
+        <div class="project-card">
+          <h3>Stock Analysis &amp; Prediction Models</h3>
+          <p>Suite of notebooks exploring market trends, price forecasting, technical indicators, time-series models, feature engineering, and backtesting strategies.</p>
+          <a class="project-link" href="https://github.com/sydneymcolumbia/Stock-Analysis" target="_blank">
+            <i class="fab fa-github"></i> View on GitHub
+          </a>
+        </div>
+
+        <div class="project-card">
+          <h3>Diabetes Prediction Analysis</h3>
+          <p>Classification modeling using logistic regression, decision trees, and ensemble methods to predict diabetes outcomes in Pima Indian female patients. Focus on data cleaning and feature selection.</p>
+          <a class="project-link" href="https://github.com/sydneymcolumbia/Diabetes-Prediction-Analysis" target="_blank">
+            <i class="fab fa-github"></i> View on GitHub
+          </a>
+        </div>
+
+        <div class="project-card">
+          <h3>Advanced Analysis of Real Estate Valuation &amp; Seed Germination Data</h3>
+          <p>Statistical modeling and exploratory data analysis of property valuations and biological growth under varying conditions, using regression techniques and visualizations.</p>
+          <a class="project-link" href="https://github.com/sydneymcolumbia/Project-Report-Advanced-Analysis-of-Real-Estate-Valuation-and-Seed-Germination-Data" target="_blank">
+            <i class="fab fa-github"></i> View on GitHub
+          </a>
+        </div>
+
+        <div class="project-card">
+          <h3>Analysis of CDC's Health Data &amp; UX Improvement Experiments</h3>
+          <p>Large-scale public health dataset analysis with morbidity/mortality trend visualization and user-experience testing for dashboard accessibility improvements.</p>
+          <a class="project-link" href="https://github.com/sydneymcolumbia/Analysis-of-CDC-s-Health-Data" target="_blank">
+            <i class="fab fa-github"></i> View on GitHub
+          </a>
+        </div>
+
+        <div class="project-card">
+          <h3>AI Blog Text Generator</h3>
+          <p>PHP-based content generation tool automating blog creation with customizable parameters for tone, topic, and length.</p>
+          <a class="project-link" href="https://github.com/sydneymcolumbia/AI-blog-text-generator-" target="_blank">
+            <i class="fab fa-github"></i> View on GitHub
+          </a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="container">
+      <p class="footer-quote">"It is those who are of the most potential who struggle to live up to their own ideals and perfection."</p>
+      <div class="footer-cta">
+        <p>More published work</p>
+        <a href="https://muckrack.com/sydney-murphy" target="_blank">MuckRack Profile</a>
+      </div>
+      <div class="footer-cta" style="margin-top:1rem;">
+        <p>Get in touch</p>
+        <a href="contact.html">Contact Sydney</a>
+      </div>
+      <div class="footer-social">
+        <a href="https://www.instagram.com/sydneybb3/" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+        <a href="https://twitter.com/SydneyLiz_Murph" target="_blank" aria-label="Twitter"><i class="fab fa-x-twitter"></i></a>
+        <a href="http://www.linkedin.com/in/sydney-murphy-756473166" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+        <a href="https://www.youtube.com/channel/UCWZ1WHXIOuJXraY4niquO6A" target="_blank" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+        <a href="https://www.facebook.com/sydney.murphy.75" target="_blank" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+      </div>
+      <p class="footer-bottom">&copy; 2026 Sydney Murphy. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script>
+    function toggleMenu() {
+      document.getElementById('mobileMenu').classList.toggle('open');
+    }
+  </script>
+
+</body>
+</html>
