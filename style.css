@@ -442,10 +442,24 @@ section { padding: 5rem 0; }
   background: var(--bg-card);
   border: 1px solid var(--border);
   border-radius: 6px;
-  padding: 1.5rem;
+  overflow: hidden;
   display: flex;
   flex-direction: column;
   transition: border-color 0.2s, transform 0.2s;
+}
+
+.post-card-img {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  display: block;
+}
+
+.post-card-body {
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
 }
 .post-card:hover {
   border-color: var(--accent);

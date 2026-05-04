@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NVIDIA: Why I'm Changing My Rating to SELL — Sydney Murphy</title>
+  <meta name="description" content="Updated DCF model with WACC of 13.52% and 22.5% revenue CAGR yields an implied price of $201 — a -6.6% downside from $215.50. Sydney Murphy downgrades NVDA to SELL." />
+  <meta name="author" content="Sydney Murphy" />
+  <meta property="og:title" content="NVIDIA: Why I'm Changing My Rating to SELL" />
+  <meta property="og:description" content="Updated DCF: WACC 13.52%, implied price $201 vs. $215.50 market price. Both valuation methods point to downside." />
+  <meta property="og:type" content="article" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:creator" content="@SydneyLiz_Murph" />
+  <link rel="stylesheet" href="../style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <style>
+    .post-body { max-width: 760px; margin: 0 auto; padding: 0 2rem; }
+    .post-body h2 { font-family: 'Playfair Display', serif; font-size: 1.3rem; margin: 2.5rem 0 0.75rem; color: var(--text); }
+    .post-body p { color: var(--text-muted); font-size: 0.95rem; line-height: 1.8; margin-bottom: 1.25rem; }
+    .post-body strong { color: var(--text); }
+    .post-body ul { padding-left: 1.5rem; margin-bottom: 1.25rem; }
+    .post-body ul li { color: var(--text-muted); font-size: 0.95rem; line-height: 1.8; margin-bottom: 0.4rem; }
+    .post-header { max-width: 760px; margin: 0 auto; padding: 3.5rem 2rem 2rem; border-bottom: 1px solid var(--border); margin-bottom: 3rem; }
+    .post-header h1 { font-family: 'Playfair Display', serif; font-size: clamp(1.6rem, 3.5vw, 2.4rem); font-weight: 700; line-height: 1.25; margin-bottom: 1rem; }
+    .post-header-meta { display: flex; align-items: center; gap: 0.75rem; margin-bottom: 1.25rem; }
+    .post-cover { max-width: 760px; margin: 0 auto 2.5rem; padding: 0 2rem; }
+    .post-cover img { width: 100%; border-radius: 6px; display: block; }
+    .post-disclaimer { background: var(--bg-card); border: 1px solid var(--border); border-left: 3px solid var(--accent); padding: 1rem 1.25rem; font-size: 0.78rem; color: var(--text-muted); line-height: 1.6; margin-top: 3rem; }
+    .model-table { background: var(--bg-card); border: 1px solid var(--border); border-radius: 6px; padding: 1.5rem; margin: 2rem 0; overflow-x: auto; }
+    .model-table h3 { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--accent); margin-bottom: 1rem; }
+    .model-table table { width: 100%; border-collapse: collapse; font-size: 0.875rem; }
+    .model-table td { padding: 0.55rem 0.75rem; border-bottom: 1px solid var(--border); color: var(--text-muted); }
+    .model-table td:last-child { text-align: right; color: var(--text); font-weight: 600; }
+    .model-table tr:last-child td { border-bottom: none; }
+    .verdict-box { background: var(--bg-card); border: 1px solid var(--border); border-radius: 6px; padding: 1.5rem; margin: 2rem 0; }
+    .verdict-box h3 { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--accent); margin-bottom: 1rem; }
+    .verdict-box p { margin-bottom: 0.4rem; font-size: 0.9rem; }
+    .byline { display: flex; align-items: center; gap: 0.5rem; font-size: 0.78rem; color: var(--text-muted); margin-bottom: 1rem; }
+    .byline strong { color: var(--text); }
+    .back-link { display: inline-flex; align-items: center; gap: 0.4rem; font-size: 0.75rem; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: var(--text-muted); margin-bottom: 2rem; transition: color 0.2s; }
+    .back-link:hover { color: var(--accent); }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <a href="../index.html" class="nav-logo">Sydney Murphy</a>
+    <div class="nav-right">
+      <ul class="nav-links">
+        <li><a href="../business-analytics.html">Business Analytics</a></li>
+        <li><a href="../investing-update.html" class="active">Investing Update</a></li>
+        <li><a href="../united-nations.html">United Nations</a></li>
+        <li><a href="../contact.html">Contact</a></li>
+      </ul>
+      <div class="nav-social">
+        <a href="https://www.instagram.com/sydneybb3/" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+        <a href="https://twitter.com/SydneyLiz_Murph" target="_blank" aria-label="Twitter"><i class="fab fa-x-twitter"></i></a>
+        <a href="http://www.linkedin.com/in/sydney-murphy-756473166" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+        <a href="https://www.youtube.com/channel/UCWZ1WHXIOuJXraY4niquO6A" target="_blank" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+      </div>
+    </div>
+    <button class="hamburger" onclick="toggleMenu()" aria-label="Menu"><span></span><span></span><span></span></button>
+  </nav>
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="../business-analytics.html">Business Analytics</a>
+    <a href="../investing-update.html">Investing Update</a>
+    <a href="../united-nations.html">United Nations</a>
+    <a href="../contact.html">Contact</a>
+    <div class="mobile-social">
+      <a href="https://www.instagram.com/sydneybb3/" target="_blank"><i class="fab fa-instagram"></i></a>
+      <a href="https://twitter.com/SydneyLiz_Murph" target="_blank"><i class="fab fa-x-twitter"></i></a>
+      <a href="http://www.linkedin.com/in/sydney-murphy-756473166" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+      <a href="https://www.youtube.com/channel/UCWZ1WHXIOuJXraY4niquO6A" target="_blank"><i class="fab fa-youtube"></i></a>
+    </div>
+  </div>
+
+  <section style="margin-top: var(--nav-height); padding-top: 3rem;">
+    <div class="post-header">
+      <a class="back-link" href="../investing-update.html"><i class="fas fa-arrow-left"></i> Investing Update</a>
+      <div class="post-header-meta">
+        <span class="post-tag">Semiconductors</span>
+        <span class="post-date">Oct 2, 2025</span>
+      </div>
+      <h1>NVIDIA: Why I'm Changing My Rating to SELL</h1>
+      <div class="byline">Written by <strong>Sydney Murphy</strong></div>
+    </div>
+
+    <div class="post-cover">
+      <img src="../images/post-nvidia-sell.jpg" alt="NVIDIA: Why I'm Changing My Rating to SELL" />
+    </div>
+
+    <div class="post-body">
+
+      <p>Just a short time ago, my analysis of NVIDIA showed significant upside. However, market conditions and risk profiles change. I have updated my financial model with new assumptions to reflect the current environment. As of October 1, 2025, with NVIDIA trading at a higher price of <strong>$215.50 a share</strong>, my model now indicates the stock is overvalued. My new analysis points to a <strong>SELL recommendation</strong>.</p>
+
+      <h2>The Core of the Updated Model: A More Conservative Stance</h2>
+      <p>My revised valuation is driven by a more conservative set of assumptions, reflecting what I see as increased risk and tempered growth expectations.</p>
+
+      <div class="model-table">
+        <h3>Key Updated Assumptions</h3>
+        <table>
+          <tr><td>5-Year Revenue CAGR</td><td>22.5%</td></tr>
+          <tr><td>WACC (Discount Rate)</td><td>13.52%</td></tr>
+          <tr><td>Terminal Growth Rate</td><td>3.0%</td></tr>
+          <tr><td>FY2030 Revenue Projection</td><td>~$358B</td></tr>
+          <tr><td>FY2030 Unlevered Free Cash Flow</td><td>$101.9B</td></tr>
+        </table>
+      </div>
+
+      <p>The most significant change is the higher discount rate (WACC), which has increased from 11.55% to 13.52%. This is primarily due to an increase in the stock's Beta from 1.55 to 1.85, indicating higher perceived market risk. Furthermore, my revenue growth forecast is now more moderate, with sales projected to reach approximately $358 billion by fiscal year 2030 — down from a previous forecast of $386 billion.</p>
+
+      <h2>New Valuation Results: A Shift to Overvalued</h2>
+      <p>After incorporating these updated assumptions, my DCF model now generates an <strong>implied share price of $201.18</strong>. This represents a <strong>-6.6% downside</strong> from the current price of $215.50.</p>
+      <p>The alternative valuation, using a more conservative exit EV/EBITDA multiple of 18.0x, corroborates this view. This secondary method yields an even lower implied price of <strong>$182.55</strong>.</p>
+      <p>Given that both valuation methods point to a fair value below the current market price, my investment recommendation is now a <strong>SELL</strong>.</p>
+
+      <h2>Understanding the New Sensitivity</h2>
+      <p>The updated sensitivity analysis shows a valuation that is much more constrained. To see a significant upside, the underlying assumptions would need to change favorably:</p>
+      <ul>
+        <li><strong>Bull scenario:</strong> WACC falls back to 12.52% + growth rate of 3.5% → implied price of $245.88</li>
+        <li><strong>Bear scenario:</strong> WACC increases to 14.52% + perpetual growth rate falls to 2.5% → implied price of $167.31 (potential <strong>22% downside</strong>)</li>
+      </ul>
+      <p>This highlights the stock's vulnerability to rising interest rates or a slowdown in its expected growth.</p>
+
+      <div class="verdict-box">
+        <h3>My Final Takeaway</h3>
+        <p>While NVIDIA remains a foundational company in the AI sector, my financial model, updated with more conservative assumptions reflecting a higher risk profile, no longer supports its current market price. The analysis now indicates the stock is overvalued.</p>
+        <p style="margin-bottom:0;"><strong>Recommendation: SELL existing positions or avoid initiating new ones until the market price aligns more closely with intrinsic value.</strong></p>
+      </div>
+
+      <div class="post-disclaimer">
+        <strong>Disclaimer:</strong> This is not financial advice. All analysis is for informational and educational purposes only. Do your own research before making any investment decisions.
+      </div>
+
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p class="footer-quote">"It is those who are of the most potential who struggle to live up to their own ideals and perfection."</p>
+      <div class="footer-cta"><p>More published work</p><a href="https://muckrack.com/sydney-murphy" target="_blank">MuckRack Profile</a></div>
+      <div class="footer-cta" style="margin-top:1rem;"><p>Get in touch</p><a href="../contact.html">Contact Sydney</a></div>
+      <div class="footer-social">
+        <a href="https://www.instagram.com/sydneybb3/" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+        <a href="https://twitter.com/SydneyLiz_Murph" target="_blank" aria-label="Twitter"><i class="fab fa-x-twitter"></i></a>
+        <a href="http://www.linkedin.com/in/sydney-murphy-756473166" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+        <a href="https://www.youtube.com/channel/UCWZ1WHXIOuJXraY4niquO6A" target="_blank" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+      </div>
+      <p class="footer-bottom">&copy; 2026 Sydney Murphy. All rights reserved.</p>
+    </div>
+  </footer>
+  <script>function toggleMenu() { document.getElementById('mobileMenu').classList.toggle('open'); }</script>
+</body>
+</html>
