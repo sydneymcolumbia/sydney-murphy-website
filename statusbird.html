@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>StatusBird — Sydney Murphy</title>
+  <meta name="description" content="StatusBird is Sydney Murphy's SaaS startup: it monitors the third-party services e-commerce stores depend on (Stripe, Shopify, Klaviyo, shipping carriers) and alerts store owners the moment something breaks." />
+  <meta name="author" content="Sydney Murphy" />
+  <meta property="og:title" content="StatusBird — Founded by Sydney Murphy" />
+  <meta property="og:description" content="Know before your customers do when a service your store depends on breaks. Monitoring and instant alerts for 75+ e-commerce services." />
+  <meta property="og:type" content="website" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav>
+    <a href="index.html" class="nav-logo">Sydney Murphy</a>
+    <div class="nav-right">
+      <ul class="nav-links">
+        <li><a href="business-analytics.html">Business Analytics</a></li>
+        <li><a href="investing-update.html">Investing Update</a></li>
+        <li><a href="united-nations.html">United Nations</a></li>
+        <li><a href="statusbird.html" class="active">StatusBird</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <div class="nav-social">
+        <a href="https://www.instagram.com/sydneybb3/" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+        <a href="http://www.linkedin.com/in/sydney-murphy-756473166" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+      </div>
+    </div>
+    <button class="hamburger" onclick="toggleMenu()" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="business-analytics.html">Business Analytics</a>
+    <a href="investing-update.html">Investing Update</a>
+    <a href="united-nations.html">United Nations</a>
+    <a href="statusbird.html">StatusBird</a>
+    <a href="contact.html">Contact</a>
+    <div class="mobile-social">
+      <a href="https://www.instagram.com/sydneybb3/" target="_blank"><i class="fab fa-instagram"></i></a>
+      <a href="http://www.linkedin.com/in/sydney-murphy-756473166" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+    </div>
+  </div>
+
+  <!-- PAGE HERO -->
+  <div class="page-hero">
+    <div class="page-hero-bg" style="background: radial-gradient(ellipse at 50% 0%, rgba(201,168,76,0.25) 0%, rgba(13,13,13,0) 65%);"></div>
+    <div class="page-hero-overlay"></div>
+    <div class="page-hero-content">
+      <h1>StatusBird</h1>
+      <p style="margin-top:0.75rem; font-size:0.85rem; letter-spacing:0.12em; text-transform:uppercase; color:var(--accent-light);">Founder &amp; Builder</p>
+    </div>
+  </div>
+
+  <!-- INTRO -->
+  <section>
+    <div class="container">
+      <h2 class="section-title">Know before your customers do.</h2>
+      <div class="section-divider"></div>
+      <p class="un-intro">
+        StatusBird is the SaaS company I founded and built. Every online store runs on a stack of
+        third-party services: payments, shipping, email, ads, reviews. When one of them goes down,
+        checkouts fail silently and revenue disappears while the store owner is the last to know.
+      </p>
+      <p class="un-intro">
+        StatusBird watches over 75 of the services e-commerce stores depend on, including Stripe,
+        Shopify, Klaviyo, and the major shipping carriers, plus the store's own storefront. The moment
+        a dependency breaks, it alerts the owner by SMS, email, Slack, Discord, or Teams, so they can
+        act before customers ever notice.
+      </p>
+      <a class="btn" href="https://statusbird.io" target="_blank" style="font-size:0.8rem; padding:0.75rem 1.75rem;">
+        <i class="fas fa-arrow-up-right-from-square"></i> Visit StatusBird.io
+      </a>
+    </div>
+  </section>
+
+  <!-- FEATURES -->
+  <section class="about-section">
+    <div class="container">
+      <h2 class="section-title">What StatusBird Does</h2>
+      <div class="section-divider"></div>
+      <div class="projects-grid">
+        <div class="project-card">
+          <h3><i class="fas fa-tower-broadcast" style="color:var(--accent); margin-right:0.5rem;"></i>Monitors 75+ Services</h3>
+          <p>Real-time monitoring across 16 categories: payments, e-commerce platforms, shipping, marketing, ads, tax, fulfillment, and more. Pre-built collections make setup one click.</p>
+        </div>
+        <div class="project-card">
+          <h3><i class="fas fa-bell" style="color:var(--accent); margin-right:0.5rem;"></i>Instant Multi-Channel Alerts</h3>
+          <p>Smart, debounced alerts by email, SMS, Slack, Discord, and Teams, with correlation context when multiple services fail at once.</p>
+        </div>
+        <div class="project-card">
+          <h3><i class="fas fa-store" style="color:var(--accent); margin-right:0.5rem;"></i>Own-Store Monitoring</h3>
+          <p>Synthetic checks of your actual storefront catch outages that status pages miss, so you know your checkout is up even when nothing else reports a problem.</p>
+        </div>
+        <div class="project-card">
+          <h3><i class="fas fa-chart-line" style="color:var(--accent); margin-right:0.5rem;"></i>Reliability Intelligence</h3>
+          <p>Public reliability grades, a downtime cost calculator, an SLA credit claim assistant, and an annual State of E-commerce Infrastructure report, all built on millions of status checks.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section style="text-align:center;">
+    <div class="container">
+      <h2 class="section-title" style="text-align:center;">Live and in production</h2>
+      <div class="section-divider center"></div>
+      <p class="un-intro" style="margin-left:auto; margin-right:auto; text-align:center;">
+        StatusBird is live today with a free tier, Pro at $29/mo, and Agency at $99/mo.
+        See it in action, check a service's status, or start monitoring your own stack.
+      </p>
+      <a class="btn" href="https://statusbird.io" target="_blank" style="font-size:0.85rem; padding:0.85rem 2.25rem;">
+        <i class="fas fa-arrow-up-right-from-square"></i> Explore StatusBird.io
+      </a>
+    </div>
+  </section>
+
+  <!-- QUOTE -->
+  <section class="quote-section">
+    <div class="container">
+      <blockquote>
+        "We are what we repeatedly do. Excellence, then, is not an act, but a habit."
+        <cite>— Aristotle</cite>
+      </blockquote>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="container">
+      <p class="footer-quote">"It is those who are of the most potential who struggle to live up to their own ideals and perfection."</p>
+      <div class="footer-cta">
+        <p>More published work</p>
+        <a href="https://muckrack.com/sydney-murphy" target="_blank">MuckRack Profile</a>
+      </div>
+      <div class="footer-cta" style="margin-top:1rem;">
+        <p>Get in touch</p>
+        <a href="contact.html">Contact Sydney</a>
+      </div>
+      <div class="footer-social">
+        <a href="https://www.instagram.com/sydneybb3/" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+        <a href="http://www.linkedin.com/in/sydney-murphy-756473166" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+      </div>
+      <p class="footer-bottom">&copy; 2026 Sydney Murphy. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script>
+    function toggleMenu() {
+      document.getElementById('mobileMenu').classList.toggle('open');
+    }
+  </script>
+
+</body>
+</html>
