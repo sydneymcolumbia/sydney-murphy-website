@@ -752,3 +752,18 @@ footer {
   .hero-split .hero-actions { justify-content: center; }
   .hero-photo img { aspect-ratio: 1 / 1; max-width: 340px; margin: 0 auto; object-position: 47% 30%; }
 }
+
+/* Bird suite */
+.bird-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1.25rem; }
+@media (max-width: 768px) { .bird-grid { grid-template-columns: 1fr; } }
+.bird-card {
+  display: flex; flex-direction: column;
+  background: var(--bg-card); border: 1px solid var(--border); border-radius: 6px; padding: 1.75rem;
+  transition: border-color 0.2s, transform 0.2s; color: inherit;
+}
+.bird-card:hover { border-color: var(--accent); transform: translateY(-2px); color: inherit; }
+.bird-q { font-family: 'Menlo', 'SFMono-Regular', Consolas, monospace; font-size: 0.72rem; letter-spacing: 0.18em; color: var(--text-muted); margin-bottom: 0.5rem; }
+.bird-card h3 { font-size: 1.1rem; font-weight: 700; margin-bottom: 0.6rem; }
+.bird-card p { font-size: 0.86rem; color: var(--text-muted); line-height: 1.65; margin-bottom: 1.25rem; flex: 1; }
+.bird-link { font-size: 0.72rem; font-weight: 600; letter-spacing: 0.09em; text-transform: uppercase; color: var(--accent); }
+.bird-card:hover .bird-link { color: var(--accent-light); }
