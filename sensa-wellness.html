@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sensa Wellness — Sydney Murphy</title>
+  <meta name="description" content="Sydney Murphy is Chief Marketing Officer and Head of Digital Products at Sensa Wellness, a patented at-home saliva test that measures inflammation. She designed the relative wellness score and leads the app, website, and marketing." />
+  <meta name="author" content="Sydney Murphy" />
+  <meta property="og:title" content="Sensa Wellness — Sydney Murphy" />
+  <meta property="og:description" content="Sydney Murphy is Chief Marketing Officer and Head of Digital Products at Sensa Wellness, a patented at-home saliva test that measures inflammation. She designed the relative wellness score and leads the app, website, and marketing." />
+  <meta property="og:type" content="website" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav>
+    <a href="index.html" class="nav-logo">Sydney Murphy</a>
+    <div class="nav-right">
+      <ul class="nav-links">
+        <li><a href="business-analytics.html">Analytics &amp; Product</a></li>
+        <li><a href="statusbird.html">StatusBird</a></li>
+        <li><a href="positionbird.html">PositionBird</a></li>
+        <li><a href="sensa-wellness.html" class="active">Sensa Wellness</a></li>
+        <li><a href="investing-update.html">Investing</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <div class="nav-social">
+        <a href="https://www.instagram.com/sydneybb3/" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+        <a href="http://www.linkedin.com/in/sydney-murphy-756473166" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+      </div>
+    </div>
+    <button class="hamburger" onclick="toggleMenu()" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <!-- MOBILE MENU -->
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="business-analytics.html">Analytics &amp; Product</a>
+    <a href="statusbird.html">StatusBird</a>
+    <a href="positionbird.html">PositionBird</a>
+    <a href="sensa-wellness.html">Sensa Wellness</a>
+    <a href="investing-update.html">Investing</a>
+    <a href="contact.html">Contact</a>
+    <div class="mobile-social">
+      <a href="https://www.instagram.com/sydneybb3/" target="_blank"><i class="fab fa-instagram"></i></a>
+      <a href="http://www.linkedin.com/in/sydney-murphy-756473166" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+    </div>
+  </div>
+
+  <!-- PAGE HERO -->
+  <div class="page-hero">
+    <div class="page-hero-bg" style="background: radial-gradient(ellipse at 50% 0%, rgba(201,168,76,0.25) 0%, rgba(13,13,13,0) 65%);"></div>
+    <div class="page-hero-overlay"></div>
+    <div class="page-hero-content">
+      <h1>Sensa Wellness</h1>
+      <p class="page-hero-sub">Chief Marketing Officer &amp; Head of Digital Products</p>
+    </div>
+  </div>
+
+  <!-- INTRO -->
+  <section>
+    <div class="container">
+      <h2 class="section-title">From a test reading to a score you can act on.</h2>
+      <div class="section-divider"></div>
+      <p class="un-intro">
+        Sensa Wellness makes a patented at-home saliva test that measures inflammation through CRP.
+        Since 2025 I have led its digital product: the mobile app, the path from a raw test reading to
+        the score a user sees, the website, and the UX, alongside the company's marketing.
+      </p>
+      <p class="un-intro">
+        The centrepiece is the relative wellness score. Instead of judging every result against one fixed
+        cutoff, it reads each result against the user's own recent history, so the number reflects change
+        in that person rather than distance from a population average. I designed the method and built it
+        into the Flutter and Dart app.
+      </p>
+      <a class="btn" href="https://sensawellness.org" target="_blank" style="font-size:0.8rem; padding:0.75rem 1.75rem;">
+        <i class="fas fa-arrow-up-right-from-square"></i> Visit sensawellness.org
+      </a>
+    </div>
+  </section>
+
+  <!-- WORK -->
+  <section class="about-section">
+    <div class="container">
+      <h2 class="section-title">What I Own at Sensa</h2>
+      <div class="section-divider"></div>
+      <div class="projects-grid">
+        <div class="project-card">
+          <h3><i class="fas fa-mobile-screen" style="color:var(--accent); margin-right:0.5rem;"></i>Mobile App &amp; Scoring Method</h3>
+          <p>Product lead for the Flutter and Dart app, from the camera scan of the test to the score on screen. Designed and shipped the relative wellness score that anchors the experience.</p>
+        </div>
+        <div class="project-card">
+          <h3><i class="fas fa-magnifying-glass-chart" style="color:var(--accent); margin-right:0.5rem;"></i>Answer Engine Visibility</h3>
+          <p>Built the system that runs a fixed set of questions against Claude and Gemini, records whether Sensa is cited, which competitors are, and what sources they draw on, then turns the gaps into specific site changes.</p>
+        </div>
+        <div class="project-card">
+          <h3><i class="fas fa-bullhorn" style="color:var(--accent); margin-right:0.5rem;"></i>Marketing &amp; Launch</h3>
+          <p>Own marketing strategy and content across Instagram and LinkedIn, and carry responsibility for launch planning across the app stores and the website.</p>
+        </div>
+        <div class="project-card">
+          <h3><i class="fas fa-users" style="color:var(--accent); margin-right:0.5rem;"></i>Team &amp; Research</h3>
+          <p>Manage intern project work and oversee a researcher on the citation-tracking workstream; scope the projects and implement the resulting changes.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- QUOTE -->
+  <section class="quote-section">
+    <div class="container">
+      <blockquote>
+        "We are what we repeatedly do. Excellence, then, is not an act, but a habit."
+        <cite>— Aristotle</cite>
+      </blockquote>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="container">
+      <p class="footer-quote">"It is those who are of the most potential who struggle to live up to their own ideals and perfection."</p>
+      <div class="footer-cta">
+        <p>Published work</p>
+        <a href="https://muckrack.com/sydney-murphy" target="_blank">MuckRack Profile</a>
+      </div>
+      <div class="footer-cta" style="margin-top:1rem;">
+        <p>Get in touch</p>
+        <a href="contact.html">Contact Sydney</a>
+      </div>
+      <div class="footer-social">
+        <a href="https://www.instagram.com/sydneybb3/" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+        <a href="http://www.linkedin.com/in/sydney-murphy-756473166" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+      </div>
+      <p class="footer-bottom">&copy; 2026 Sydney Murphy. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script>
+    function toggleMenu() {
+      document.getElementById('mobileMenu').classList.toggle('open');
+    }
+  </script>
+
+</body>
+</html>

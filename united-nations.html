@@ -3,7 +3,12 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>United Nations — Sydney Murphy</title>
+  <title>Journalism — Sydney Murphy</title>
+  <meta name="description" content="Sydney Murphy's data journalism: health, technology, and international development stories for WebMD, U.S. News & World Report, HealthDay, HowStuffWorks, and the United Nations' Africa Renewal magazine." />
+  <meta name="author" content="Sydney Murphy" />
+  <meta property="og:title" content="Journalism — Sydney Murphy" />
+  <meta property="og:description" content="Sydney Murphy's data journalism: health, technology, and international development stories for WebMD, U.S. News & World Report, HealthDay, HowStuffWorks, and the United Nations' Africa Renewal magazine." />
+  <meta property="og:type" content="website" />
   <link rel="stylesheet" href="style.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
 </head>
@@ -14,11 +19,11 @@
     <a href="index.html" class="nav-logo">Sydney Murphy</a>
     <div class="nav-right">
       <ul class="nav-links">
-        <li><a href="business-analytics.html">Business Analytics</a></li>
-        <li><a href="investing-update.html">Investing Update</a></li>
-        <li><a href="united-nations.html" class="active">United Nations</a></li>
+        <li><a href="business-analytics.html">Analytics &amp; Product</a></li>
         <li><a href="statusbird.html">StatusBird</a></li>
         <li><a href="positionbird.html">PositionBird</a></li>
+        <li><a href="sensa-wellness.html">Sensa Wellness</a></li>
+        <li><a href="investing-update.html">Investing</a></li>
         <li><a href="contact.html">Contact</a></li>
       </ul>
       <div class="nav-social">
@@ -31,12 +36,13 @@
     </button>
   </nav>
 
+  <!-- MOBILE MENU -->
   <div class="mobile-menu" id="mobileMenu">
-    <a href="business-analytics.html">Business Analytics</a>
-    <a href="investing-update.html">Investing Update</a>
-    <a href="united-nations.html">United Nations</a>
+    <a href="business-analytics.html">Analytics &amp; Product</a>
     <a href="statusbird.html">StatusBird</a>
     <a href="positionbird.html">PositionBird</a>
+    <a href="sensa-wellness.html">Sensa Wellness</a>
+    <a href="investing-update.html">Investing</a>
     <a href="contact.html">Contact</a>
     <div class="mobile-social">
       <a href="https://www.instagram.com/sydneybb3/" target="_blank"><i class="fab fa-instagram"></i></a>
@@ -46,35 +52,68 @@
 
   <!-- PAGE HERO -->
   <div class="page-hero">
-    <div class="page-hero-bg" style="background-image: url('images/un-hero.jpg');"></div>
+    <div class="page-hero-bg" style="background: radial-gradient(ellipse at 50% 0%, rgba(201,168,76,0.25) 0%, rgba(13,13,13,0) 65%);"></div>
     <div class="page-hero-overlay"></div>
     <div class="page-hero-content">
-      <h1>Published by United Nations</h1>
+      <h1>Data Journalism</h1>
+      <p class="page-hero-sub">Independent &middot; 2021 &ndash; 2023</p>
     </div>
   </div>
 
-  <!-- CONTENT -->
+  <!-- INTRO -->
   <section>
     <div class="container">
+      <h2 class="section-title">The story behind the numbers.</h2>
+      <div class="section-divider"></div>
       <p class="un-intro">
-        Authored an article while interning at the United Nations, Global Communications Department.
-        The piece was published in <em>Africa Renewal</em>, the UN's flagship magazine covering
-        African development issues.
+        After my Master's in data journalism at Columbia, I reported and published data-driven health,
+        technology, and international development stories for national and international outlets. The
+        work meant sourcing, cleaning, and analysing public datasets in Python and R, including CDC public
+        health data, doing the statistical work, and building the charts that carried the findings for a
+        general audience.
+      </p>
+      <p class="un-intro">
+        It is the same discipline I now apply to products: find the measurement that matters, make it
+        rigorous, and make it legible.
       </p>
 
       <div class="un-article-card">
         <div class="un-icon">🇺🇳</div>
         <div>
-          <h3>UN-AU Prepare 2022 Africa Amnesty Month — September</h3>
+          <h3>UN-AU Prepare 2022 Africa Amnesty Month</h3>
           <p>
-            Published in <em>Africa Renewal</em> magazine. This article covers the collaborative
-            efforts between the United Nations and the African Union in preparing for Africa Amnesty
-            Month, examining the initiative's goals and anticipated impact for September 2022.
+            Written while interning in the United Nations Department of Global Communications and published
+            in <em>Africa Renewal</em>, the UN's flagship magazine on African development. The piece covers
+            the joint United Nations and African Union preparations for Africa Amnesty Month in September 2022.
           </p>
           <a class="btn" href="https://africarenewal.un.org/en/magazine/un-au-prepare-2022-africa-amnesty-month-september" target="_blank">
-            <i class="fas fa-external-link-alt"></i> Read Article
+            <i class="fas fa-arrow-up-right-from-square"></i> Read Article
           </a>
         </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PUBLICATIONS -->
+  <section class="publications about-section">
+    <div class="container">
+      <h2 class="section-title" style="text-align:center;">Published In</h2>
+      <div class="section-divider center"></div>
+      <div class="pub-grid">
+        <a class="pub-badge" href="https://www.webmd.com/health-insurance/news/20220802/9-in-10-americans-want-their-health-info-kept-private" target="_blank">WebMD</a>
+        <a class="pub-badge" href="https://www.usnews.com/search/news?q=sydney%20murphy" target="_blank">U.S. News &amp; World Report</a>
+        <a class="pub-badge" href="https://africarenewal.un.org/en/magazine/un-au-prepare-2022-africa-amnesty-month-september" target="_blank">United Nations</a>
+        <a class="pub-badge" href="https://consumer.healthday.com/b-9-2-deadly-rainbow-fentanyl-looks-like-candy-could-entice-kids-2657979614.html" target="_blank">HealthDay</a>
+        <a class="pub-badge" href="https://electronics.howstuffworks.com/cell-phone-apps/weather-app-track.htm" target="_blank">HowStuffWorks</a>
+        <a class="pub-badge" href="https://www.drugs.com/news/alzheimer-s-caring-caregivers-107479.html" target="_blank">Drugs.com</a>
+        <a class="pub-badge" href="https://www.azcentral.com/story/news/local/phoenix/contributed/2015/09/04/suicide-prevention-answering-calls-teens-crisis/71633496/" target="_blank">Arizona Republic</a>
+        <a class="pub-badge" href="https://thriveglobal.com/stories/finding-your-essence-meet-cielo-the-woman-blending-the-world/" target="_blank">Thrive Global</a>
+        <a class="pub-badge" href="https://talentnook.com/blog/how-parents-can-engage-in-their-childs-education" target="_blank">Talentnook</a>
+        <a class="pub-badge" href="https://wheatonwire.com/byline/sydney-murphy/" target="_blank">The Wire</a>
+        <a class="pub-badge" href="https://myvoiceourstory.com/podcast-item/how-devika-and-swati-bhise-created-the-first-hollywood-action-film-in-history-with-a-brown-female-lead/" target="_blank">Blend College</a>
+      </div>
+      <div style="text-align:center;">
+        <a class="pub-more" href="https://muckrack.com/sydney-murphy" target="_blank">View Complete Portfolio on MuckRack &rarr;</a>
       </div>
     </div>
   </section>
@@ -94,7 +133,7 @@
     <div class="container">
       <p class="footer-quote">"It is those who are of the most potential who struggle to live up to their own ideals and perfection."</p>
       <div class="footer-cta">
-        <p>More published work</p>
+        <p>Published work</p>
         <a href="https://muckrack.com/sydney-murphy" target="_blank">MuckRack Profile</a>
       </div>
       <div class="footer-cta" style="margin-top:1rem;">
